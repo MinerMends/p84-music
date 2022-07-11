@@ -15,16 +15,10 @@ Music cog for discord bots. Supports YouTube, YoutubeMusic, SoundCloud and Spoti
 
 # Installation
 
-Pypi
-
-```
-pip install music-cord
-```
-
-or from Github (Might be unstable)
+Github
 
 ```sh
-python3 -m pip install git+https://github.com/NixonXC/cord-music.git
+python3 -m pip install git+https://github.com/MinerMends/p84-music.git
 ```
 
 # Usage
