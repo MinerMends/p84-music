@@ -1,4 +1,4 @@
-# Music Cord (On-Going)
+# P84 Music (On-Going)
 
 Dismusic for pycord with slash commands!
 
