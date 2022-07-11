@@ -23,7 +23,7 @@ with open("requirements.txt") as f:
 current_directory = Path(__file__).parent.resolve()
 long_description = (current_directory / "README.md").read_text(encoding="utf-8")
 
-version_path = current_directory / "cord-music" / "_version.py"
+version_path = current_directory / "p84-music" / "_version.py"
 module_spec = spec_from_file_location(version_path.name[:-3], version_path)
 version_module = module_from_spec(module_spec)
 module_spec.loader.exec_module(version_module)
@@ -34,7 +34,7 @@ setup(
     description="Music cog for discord bots. Supports YouTube, YoutubeMusic, SoundCloud and Spotify.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/NixonXC/cord-music/",
+    url="https://github.com/MinerMends/p84-music/",
     author="NixonXC",
     author_email="pixiej@welcbot.ml",
     license="MIT",
@@ -44,7 +44,7 @@ setup(
     python_requires=">=3.7, <4",
     install_requires=requirements,
     project_urls={
-        "Bug Reports": "https://github.com/NixonXC/cord-music/issues",
-        "Source": "https://github.com/NixonXC/cord-music/",
+        "Bug Reports": "https://github.com/MinerMends/p84-music/issues",
+        "Source": "https://github.com/MinerMends/p84-music/",
     },
 )
