@@ -101,7 +101,7 @@ class Music(commands.Cog):
         
     @slash_command()
     async def music(self, ctx):
-        em = discord.Embed(title="Music Commands", description="`play` , `pause` , `resume`, `skip` , `seek` , `connect` , `volume` , `loop` , `queue` , `nowplaying` , alwaysjoined , `music`", color=discord.Color.blurple())
+        em = discord.Embed(title="Music Commands [test]", description="`play` , `pause` , `resume`, `skip` , `seek` , `connect` , `volume` , `loop` , `queue` , `nowplaying` , alwaysjoined , `music`", color=discord.Color.blurple())
         em.set_footer(text="Music Cord")
         await ctx.respond(embed = em)
         
